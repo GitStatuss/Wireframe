@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="fortniteballsthesequel"></div>
+<div class="fortniteballs2"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<style>
+    h2 {
+        text-align: center;
+    }
+</style>
+<header>
+
+    <div class="fortniteballs"></div>
+
+</header>
+
+<body>
+    <article>
+        <div class="menu-bar">
+            <div class="menu-item">
+                <p><img src="NPC.jpg" alt="Profile Image">
+                <h3>Bram Grundell</h3>
+                </p>
+            </div>
+            <a href="#inhoud" class="menu-item">Inhoud</a>
+            <a href="#tech" class="menu-item">Tech</a>
+            <a href="#over" class="menu-item">Over</a>
+        </div>
+
+        </style>
+
+
+        <div class="yes">
+            <h2 id="over"></h2>
+            <br>
+            <div class="glizzy">
+                <h1>~~~~[Over]~~~~</h1>
+            </div>
+            <br>
+            <div class="bread">
+                <h2>Dit is mijn wireframe opdracht voor SD, waarbij ik het over deze dingen ga hebben over de inhoud
+                    en Tech.<br>
+                    Bij mijn tech ga ik het hebben over de samenvatting van mijn opleiding en wat ik na de
+                    opleiding/schooljaar wil doen.<br>
+                    Bij mijn Tech ga ik laten zien wat ik al heb gedaan en wat ik vooral leuk vond.
+
+
+                </h2>
+
+
+
+
+            </div>‎<div class="croc"><a href="https://kinggizzardandthelizardwizard.com/">
+                    <img src="croc.png" alt="Clickable Image">
+                </a></div>
+            <h2>©King gizzard and the lizard wizard<br>‎ </h2>
+        </div>
+
+
+
+        <div class="yes">
+            <h2 id="tech"></h2>
+            <br>
+            <div class="glizzy">
+                <h1>~~~~[Tech]~~~~</h1>
+            </div>
+            <br>
+            <div class="bread">
+                <h2>
+
+                    [Mijn voorspellingen in de toekomst en na het MA]<br><br>
+                    1. Mijn softskills straks zijn Waarschijnlijk C++ en Java<br>
+                    2. Na de opleiding zal ik mijn game volledig af willen hebben, een goeie website hebben gemaakt en
+                    dat ik de proggameertalen wat vloeiender kan werken zonder veel hulp te gebruiken.<br>
+                    3. Na het MA zou ik waarschijnlijk HBO willen doen of ik ga na het opleiding ergens werken, maar ik
+                    heb nog geen idee echt en nu is het ook niet echt iets van waar ik over moet na denken.<br>
+                    4. Als droombaan heb ik echt geen idee, ik kan echt niets bedenken, Ik zie het wil in de toekomst.<br>
+                    5. Als andere droom misschien in een band zitten.
+
+                </h2>
+
+
+
+
+
+
+                <h2><br> </h2>
+            </div>
+            <h2><br></h2>
+            <div class="game"><a href="https://github.com/GitStatuss/Unity">
+                    <img src="game.png" alt="Clickable Image"></a>
+                <h2><br></h2>
+            </div>
+
+
+
+            </head>
+
+            <body>
+
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <div class="kill"><img src="ultrakill.png" style="width:100%"></div>
+                        <div class="text">Mijn HTML opdracht begin van het jaar over ULTRAKILL.</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="neusaap.png" style="width:100%">
+                        <div class="text">Photoshop opdracht met SKILL.</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="horrorgame.png" style="width:100%">
+                        <div class="text">Mijn horror spel in de progress of making.</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                        let i;
+                        let slides = document.getElementsByClassName("mySlides");
+                        let dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) { slideIndex = 1 }
+                        if (n < 1) { slideIndex = slides.length }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                    }
+                </script>
+
+
+                <br>
+                <div class="loaf">
+                    <h1>Reviews</h1>
+                </div>
+                <h1 id="yello">★★★★★‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎★★★★★</h1>
+                <p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Guy genaamd Kees‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+                    ‎ ‎
+                    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+                    De Jonkler<br>‎</p>
+                <div class="Kees">
+                    <p><img src="Kees.jpg" alt="Kees"></p>
+                    <p>‎ "Ik ben Kees"</p>
+                </div>
+
+
+
+
+                <div class="jonkler">
+                    <p><img src="jonkler.png" alt="jonkler"></p>
+
+                    <p>"Why so serious?"</p>
+                    <br><br>
+
+                </div>
+
+        </div>
+
+        <div class="yes">
+            <h2 id="inhoud"></h2>
+            <br>
+            <div class="glizzy">
+                <h1>~~~~[Inhoud]~~~~</h1>
+            </div>
+            <br>
+            <div class="bread">
+                <h2>
+
+                    HTML en CSS kan ik momenteel wel oké, maar ik verwacht aan het einde dat ik het wel goed kan zonder
+                    dat ik iets moet opzoeken. <br>
+                    C# kan ik momenteel niet zo goed, want ik begrijp er namelijk niet echt wat van en ik moet heel vaak
+                    dingen opzoeken en kijken hoe iets werkt en zit, maar na de opleiding verwacht ik wal dat ik het wel
+                    ok kan. <br>
+                    Figma ga ik waarschijnlijk niet vaak gebruiken, maar ik kan het momenteel best goed en ik denk na de
+                    opleiding dat ik wel erg goed wordt. <br>
+                    Met Photoshop kan ik momenteel al de basics, maar ik denk dat ik aan het einde van de opleiding met
+                    de extra moeilijkheden ook wel kan en de extra tools. <br>
+                    Github begrijp ik moment best slecht, maar ik denk dat ik na de opleiding wel uit mijn hoofd hoe je
+                    de basics kan.
+
+                </h2>
+
+
+
+
+
+                <h2><br> </h2>
+            </div>
+            <div class="sigma">
+                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                    const xValues = ["HTML", "CSS", "C#", "Figma", "Photoshop", "Github"];
+                    const yValues = [80, 70, 45, 85, 70, 50, 0, 100];
+                    const barColors = ["orange", "DodgerBlue", "#702963", "#34495e", "#1f618d", "brown"];
+
+                    new Chart("myChart", {
+                        type: "bar",
+                        data: {
+                            labels: xValues,
+                            datasets: [{
+                                backgroundColor: barColors,
+                                data: yValues
+                            }]
+                        },
+                        options: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                                text: "Mijn tech skills einde opleiding aantal percentage",
+                                fontSize: 20,
+                                fontColor: "black"
+                            },
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero: true,
+                                        fontColor: "#34495e"
+                                    }
+                                }],
+                                xAxes: [{
+                                    ticks: {
+                                        fontColor: "#34495e"
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                </script>
+<h4>©Bram Grundell SD1A<br>‎</h4>
+            </div>
+</body>
+
+</html>
